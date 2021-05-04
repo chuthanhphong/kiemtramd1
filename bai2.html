@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(a) {
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        for (i = 0; i < arr.length; i++) {
+            if (a == arr[i]) {
+                alert(a + ' là số thứ  ' + i + 'trong mảng')
+                break;
+            } else if (a != arr[i]) {
+                alert(a +' không nằm trong mảng ')
+                break;
+            }
+        }
+    }
+    let b = prompt('nhập số')
+    check(b)
+
+
+
+</script>
+</body>
+</html>
